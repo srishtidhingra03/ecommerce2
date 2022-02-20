@@ -1,0 +1,39 @@
+#contact-box form {
+    
+    margin: 59px 443px;
+    padding: 75px;
+    width: 40%;
+    height: 40%;
+    background: url('../contact.jpg') no-repeat center center/cover;
+}
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 32px;
+    margin-left: 41px;
+}
+body{
+    background-image: url('../bg.jpg');
+
+}
+label{
+    color:#ff5050;
+}
+input{
+    margin-left: 24px;
+}
+.form-group{
+    margin-left: 15px;
+}
+.call1{
+    margin-left: 4px;
+}
+.call3{
+    margin-left: 19px;
+}
+.btn{
+    margin-left: 200px;
+    border-radius: 8px;
+}
+

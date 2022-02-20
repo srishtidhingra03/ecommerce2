@@ -1,0 +1,122 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+<link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+
+    
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: #602424;;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#navbar ul{
+    display: flex;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 12px 43px;;
+    border-radius: 19px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: rgb(230, 233, 37);
+}
+#home::before{ 
+    content: "";
+    position: absolute;
+   
+    height: 642px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{ 
+    content: "";
+    position: absolute;
+    background: url('../bg3.jpg') no-repeat center center/cover;
+    height: 642px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+
+#home h1{
+    color:black;
+font-size: 50px;
+    text-align: center;
+    font-family: 'Redressed', cursive;
+    margin-top: 6px;
+}
+
+#home p{
+    color:black
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
+.btn{
+background-color: #71c4cf;
+padding: 5px 30px;
+margin: 5px;
+cursor: pointer;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+border-radius: 4px;
+}
+.btn:hover{
+   color:white;
+    background-color: rgb(63, 160, 136);
+}
+a{
+    text-decoration: none;
+    color: black;

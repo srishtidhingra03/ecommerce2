@@ -1,0 +1,39 @@
+.container {
+    border: 22px solid rgb(197, 80, 80);
+    margin: 12px 410px;
+    padding: 75px;
+    width: 40%;
+    border-radius: 28px;
+    height:30%;
+    background: url('../s1.jpg') no-repeat center center/cover;
+}
+.form-group input {
+    font-family:'Times New Roman', Times, serif
+    text-align: center;
+    display: block;
+    width:299px;
+    padding: 9px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.container h1 {
+    text-align: center;
+    margin-top:-15px;
+}
+
+.container button {
+    display: block;
+    width: 47%;
+    margin: 38px auto;
+    height: 52px;
+    margin-bottom: 7px;
+}
+.form{
+    display:inline;
+    margin-left: 69px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif
+    
+}

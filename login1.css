@@ -1,0 +1,33 @@
+ /* .mb-3{
+     margin: 15px 443px;
+     padding: 75px; 
+     width: 20%; 
+    margin-left: 520px;
+    height:30%; 
+     border: 2px solid #1d1d1c;
+    background-color: rgb(236, 228, 228);
+    flex-direction: column;
+    justify-content: center;
+    margin top: 50px; */
+
+.mb-3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:auto;
+} 
+h1{
+text-align: center;    
+margin: 50px;
+}   
+
+body{
+    background: url("../log.jpg");
+    justify-content: center;
+}
+form{
+    width: 30%;
+    background-color: bisque;
+}
+.container{
+    margin-left: 500px;
+    margin-top: 40px;
+}

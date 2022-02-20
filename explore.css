@@ -1,0 +1,52 @@
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{ 
+    border: 2px solid rgb(141, 106, 106);
+    padding: 34px;
+    margin: 45px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    width: 20%;
+   
+}
+
+#services .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+#services .box p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+body{
+    background: url(../b6.jpg)no-repeat center center/cover;
+}
+.btn{
+    background-color: #71c4cf;
+    padding: 5px 30px;
+    margin: 5px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 4px;
+    
+    }
+    .btn:hover{
+       color:white;
+        background-color: rgb(63, 160, 136);
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
